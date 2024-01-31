@@ -1,0 +1,35 @@
+.best{
+    color: aliceblue;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.best-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: 100%;
+}
+
+.best-left-photo img{
+    width: 200px;
+    transform: rotate( 260deg);
+}
+.best-right-photo img{
+    width: 200px;
+    transform: rotate(180deg);
+}
+
+
+@media only screen and (max-width: 1050px) {
+    .best-left{
+        display: none;
+    }
+    .best-right{
+        display: none;
+    }
+}
