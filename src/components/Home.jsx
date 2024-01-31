@@ -4,7 +4,7 @@ import leftMain from '../image/left home.png';
 import rightMain from '../image/right.png'
 import "./css/Home.css";
 import Bestfor from "./Bestfor";
-
+import { Link } from "react-router-dom";
 const Home = () => {
   return (
     <>
@@ -30,7 +30,7 @@ const Home = () => {
 
               <div className="forth-home">
                 <div className="fourth-first">Do want to get some awesome quotes</div>
-                <div className="fourth-second">Click Here</div>
+                <Link to ="/quotes" className="fourth-second">Click Here</Link>
               </div>
 
               <div className="fifth-home">

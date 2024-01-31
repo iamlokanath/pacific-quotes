@@ -21,6 +21,8 @@
     font-size: 23px;
     font-weight: 500;
     color: white;
+    text-decoration: none;
+    cursor: pointer;
 }
 .logoSpan{
     color: #1DA1F2;
