@@ -5,6 +5,7 @@ import Home from './components/Home'
 import './App.css'
 import Bestfor from "./components/Bestfor";
 import Pacificqoutes from "./components/Pacificqoutes";
+import Footer from "./components/Footer";
 function App() {
   return (
     <div className="App">
@@ -14,6 +15,7 @@ function App() {
           <Route path="/" element= {<Home/>}/>
           <Route path="/best" element={<Bestfor/>}/>
           <Route path="/quotes" element={<Pacificqoutes/>}/>
+          <Route path="/footer" element = {<Footer/>}/>
         </Routes>
      </BrowserRouter>
     </div>
