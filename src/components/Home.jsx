@@ -5,6 +5,7 @@ import rightMain from '../image/right.png'
 import "./css/Home.css";
 import Bestfor from "./Bestfor";
 import { Link } from "react-router-dom";
+import Footer from "./Footer";
 const Home = () => {
   return (
     <>
@@ -52,6 +53,7 @@ const Home = () => {
       </div>
 
       <Bestfor/>
+      <Footer/>
     </>
   );
 };
