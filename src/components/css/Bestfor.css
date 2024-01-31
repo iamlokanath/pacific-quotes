@@ -5,7 +5,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 .best-container{
     display: flex;
@@ -19,6 +18,24 @@
     width: 200px;
     transform: rotate( 260deg);
 }
+.best-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.best-heading{
+    font-family: sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    
+    letter-spacing: -.03em;
+}
+.best-heading-photo img{
+    width: 300px;
+}
+
 .best-right-photo img{
     width: 200px;
     transform: rotate(180deg);
@@ -31,5 +48,14 @@
     }
     .best-right{
         display: none;
+    }
+    .best-container{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .best-heading-photo img{
+        width: 200px;
     }
 }

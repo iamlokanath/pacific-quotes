@@ -2,6 +2,7 @@ import React from 'react'
 import './css/Bestfor.css';
 import bestLeft from '../image/best-left.png';
 import bestRight from '../image/best-right.png';
+import bestMain from '../image/twitter-removebg-preview.png';
 const Bestfor = () => {
   return (
     <div className="best">
@@ -14,6 +15,9 @@ const Bestfor = () => {
             <div className="best-main">
                 <div className="best-heading">
                     Best For
+                </div>
+                <div className="best-heading-photo">
+                    <img src={bestMain} alt="best heading" />
                 </div>
             </div>
             <div className="best-right">

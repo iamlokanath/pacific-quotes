@@ -3,7 +3,9 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: calc(90vh - 60px);
+    /* height: calc(100vh - 60px ); */
+    margin-top: 4rem;
+    margin-bottom: 4rem;
 
 }
 .home-container{
@@ -120,11 +122,15 @@
 }
 
 
-@media only screen and (max-width: 1050px) {
+@media only screen and (max-width: 1250px) {
     .left-home{
         display: none;
     }
     .right-home{
         display: none;
     }
+    /* .home{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    } */
 }
